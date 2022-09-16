@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, Cantarell, 'Open Sans', 'Inter', sans-serif;
+}
+
+.app {
+    display: flex;
+    min-height: 100vh;
+    background-image:url(file:///D:/IGS/Landscape001v2DARK.png);
+    overflow-y: scroll;
+}
+
+.sidebar {
+    flex: 1 1 0;
+    max-width: 60px;
+    padding: 2rem 1rem;
+    background-color: #00000030;
+    border-right: 1px solid #ffffff41;
+    backdrop-filter: blur(16px);
+    transition: 0.1s linear;
+
+}
+
+.sidebar:hover {
+    flex: 1 1 0;
+    max-width: 160px;
+    padding: 2rem 1rem;
+    background-color: #00000030;
+    border-right: 1px solid #ffffff41;
+    backdrop-filter: blur(16px);
+    transition: 0.2s ease-in-out;
+}
+
+.sidebar h3 {
+    color: #bfbfbf7d;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    margin-left: -4.5px;
+}
+
+.sidebar .menu {
+    margin: 0 -1rem;
+}
+
+.sidebar .menu .menu-item {
+    display: block;
+    padding: 1rem;
+    color: #dbdbdb;
+    text-decoration: none;
+    transition: 0.1s linear;
+    text-align: left;
+    margin: 5px;
+    margin-inline: 3px;
+}
+
+.sidebar .menu .menu-item:hover {
+    color: #ffffffef;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #ffffff27;
+    margin: 5px;
+}
+
+.sidebar .menu .menu-item.is-active {
+    
+    color: #ffffff;
+    border-radius: 4px;
+    background-blend-mode: overlay;
+    background-color: #ffffff3a;
+    margin: 5px;
+    max-height: 55px;
+    margin-inline: 3px;
+
+}
+
+.content {
+    flex: 1 1 0;
+    padding: 2rem;
+}
+
+.content h1 {
+    color: #e2e2e2e2;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    color: #dddddde8;
+}
