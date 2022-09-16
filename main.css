@@ -8,24 +8,24 @@
 .app {
     display: flex;
     min-height: 100vh;
-    background-image:url(https://raw.githubusercontent.com/Cactus500/INDIE-GAMES-STORE/main/Landscape001v2DARK.png);
+    background-image:url(file:///D:/IGS/Landscape001v2DARK.png);
     overflow-y: scroll;
 }
 
 .sidebar {
     flex: 1 1 0;
-    max-width: 60px;
+    max-width: 67.5px;
     padding: 2rem 1rem;
     background-color: #00000030;
     border-right: 1px solid #ffffff41;
     backdrop-filter: blur(16px);
-    transition: 0.1s linear;
+    transition: 0.2s ease-in-out;
 
 }
 
 .sidebar:hover {
     flex: 1 1 0;
-    max-width: 160px;
+    max-width: 200px;
     padding: 2rem 1rem;
     background-color: #00000030;
     border-right: 1px solid #ffffff41;
@@ -53,7 +53,7 @@
     transition: 0.1s linear;
     text-align: left;
     margin: 5px;
-    margin-inline: 3px;
+    font-size: 20px;
 }
 
 .sidebar .menu .menu-item:hover {
@@ -71,9 +71,7 @@
     background-blend-mode: overlay;
     background-color: #ffffff3a;
     margin: 5px;
-    max-height: 55px;
-    margin-inline: 3px;
-
+    max-height: 57.5px;
 }
 
 .content {
